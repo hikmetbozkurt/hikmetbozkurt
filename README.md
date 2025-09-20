@@ -1,46 +1,159 @@
-# Getting Started with Create React App
+# Hikmet Bozkurt Aydoğan - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React and TypeScript, showcasing my skills, projects, and experience as a Junior Software Engineer.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Modern Design**: Dark theme with cyan accents and smooth animations
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
+- **Interactive Sections**: 
+  - Hero section with animated hexagonal profile placeholder
+  - About section with personal information and statistics
+  - Skills section with animated progress bars
+  - Projects section with detailed project cards
+  - Contact section with working contact form
+- **Smooth Navigation**: Fixed header with smooth scrolling to sections
+- **Mobile Menu**: Hamburger menu for mobile devices
+- **Font Awesome Icons**: Professional icons throughout the site
+- **SEO Optimized**: Meta tags and Open Graph tags for better search visibility
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: React 18, TypeScript, CSS3
+- **Icons**: Font Awesome 6.4.0
+- **Fonts**: Inter (Google Fonts)
+- **Build Tool**: Create React App
+- **Deployment**: Vercel (ready)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📁 Project Structure
 
-### `npm test`
+```
+src/
+├── components/
+│   ├── Header.tsx & Header.css
+│   ├── Hero.tsx & Hero.css
+│   ├── About.tsx & About.css
+│   ├── Skills.tsx & Skills.css
+│   ├── Projects.tsx & Projects.css
+│   └── Contact.tsx & Contact.css
+├── App.tsx
+├── App.css
+└── index.tsx
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/hikmetbozkurt/portfolio.git
+cd portfolio
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Building for Production
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+This builds the app for production to the `build` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎨 Customization
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Personal Information
+
+Update the following files with your personal information:
+
+1. **Hero Section** (`src/components/Hero.tsx`):
+   - Name, title, and description
+   - Social media links
+   - Contact information
+
+2. **About Section** (`src/components/About.tsx`):
+   - Personal story and journey
+   - Statistics (years of experience, projects, etc.)
+
+3. **Skills Section** (`src/components/Skills.tsx`):
+   - Skill categories and proficiency levels
+   - Certifications
+
+4. **Projects Section** (`src/components/Projects.tsx`):
+   - Project details, technologies, and features
+   - GitHub links
+
+5. **Contact Section** (`src/components/Contact.tsx`):
+   - Contact information
+   - Social media links
+
+### Styling
+
+The website uses a consistent color scheme:
+- Primary: `#00d4ff` (Cyan)
+- Secondary: `#0099cc` (Darker Cyan)
+- Background: `#1a1a1a` and `#2d2d2d` (Dark grays)
+- Text: `#ffffff` (White) and `#b0b0b0` (Light gray)
+
+### Adding Your Photo
+
+Replace the profile placeholder in the Hero section:
+1. Add your photo to the `public` folder
+2. Update the `src` attribute in `Hero.tsx` to point to your image
+3. Remove the placeholder div and use an `<img>` tag instead
+
+## 📱 Responsive Design
+
+The website is fully responsive with breakpoints at:
+- Desktop: 1024px and above
+- Tablet: 768px - 1023px
+- Mobile: 480px - 767px
+- Small Mobile: Below 480px
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with one click
+
+### Other Platforms
+
+The built files in the `build` folder can be deployed to any static hosting service like:
+- Netlify
+- GitHub Pages
+- AWS S3
+- Firebase Hosting
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Contact
+
+**Hikmet Bozkurt Aydoğan**
+- Email: hkmtbzkrt06@gmail.com
+- Phone: +90 538 521 81 99
+- GitHub: [github.com/hikmetbozkurt](https://github.com/hikmetbozkurt)
+- LinkedIn: [linkedin.com/in/hikmetbozkurt](https://linkedin.com/in/hikmetbozkurt)
+
+---
+
+Made with ❤️ by Hikmet Bozkurt Aydoğan
