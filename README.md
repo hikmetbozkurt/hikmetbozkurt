@@ -150,7 +150,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **Hikmet Bozkurt Aydoğan**
 - Email: hkmtbzkrt06@gmail.com
-- Phone: +90 538 521 81 99
 - GitHub: [github.com/hikmetbozkurt](https://github.com/hikmetbozkurt)
 - LinkedIn: [linkedin.com/in/hikmetbozkurt](https://linkedin.com/in/hikmetbozkurt)
 
